@@ -1,9 +1,9 @@
-function WsOpen(ev: Event){
+function WsOpen(ev: any){
     console.log("websocket conneciton open");
 };
 
 
-function WsOnMessage(ev: Event) {
+function WsOnMessage(ev: any) {
     console.log(`Message receieved from websocket connection: ${ev.data}`);
 }
 
