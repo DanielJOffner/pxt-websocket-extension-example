@@ -1,6 +1,7 @@
 /**
  * Functions to do basically nothing
  */
+//% color=#f44242 icon="\uf185"
 namespace useless {
     
     /**
